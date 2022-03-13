@@ -10,7 +10,7 @@ class ListCountry extends HTMLElement {
           <div class="card bg-light text-dark">
             <img height="120" src="${country.flags.png}" alt="${country.name.official}">
             <div class="card-body">
-              <a href="/public/detail.html?country=${country.name.common}">${country.name.official}</a>
+              <a href="/detail.html?country=${country.name.common}">${country.name.official}</a>
               <p class="card-text m-0">Population: ${Intl.NumberFormat().format(country.population)}</p>
               <p class="card-text m-0">Region: ${country.region}</p>
               <p class="card-text m-0">Capital: ${country.capital}</p>
